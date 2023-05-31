@@ -12,7 +12,7 @@ license: apache-2.0
 
 # 🚀 Falcon-40B
 
-**Falcon-40B is a 40B parameters causal decoder-only model built by [TII](https://www.tii.ae) and trained on 1,000B tokens of [RefinedWeb](https://huggingface.co/datasets/tiiuae/falcon-refinedweb) enhanced with curated corpora. It is made available under the [TII Falcon LLM License](https://huggingface.co/tiiuae/falcon-40b/blob/main/LICENSE.txt).**
+**Falcon-40B is a 40B parameters causal decoder-only model built by [TII](https://www.tii.ae) and trained on 1,000B tokens of [RefinedWeb](https://huggingface.co/datasets/tiiuae/falcon-refinedweb) enhanced with curated corpora. It is made available under the Apache 2.0 license.**
 
 *Paper coming soon 😊.*
 
@@ -20,8 +20,8 @@ license: apache-2.0
 
 * **It is the best open-source model currently available.** Falcon-40B outperforms [LLaMA](https://github.com/facebookresearch/llama), [StableLM](https://github.com/Stability-AI/StableLM), [RedPajama](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-7B-v0.1), [MPT](https://huggingface.co/mosaicml/mpt-7b), etc. See the [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).
 * **It features an architecture optimized for inference**, with FlashAttention ([Dao et al., 2022](https://arxiv.org/abs/2205.14135)) and multiquery ([Shazeer et al., 2019](https://arxiv.org/abs/1911.02150)). 
-* **It is made available under a license allowing commercial use**, see the details of the [TII Falcon LLM License](https://huggingface.co/tiiuae/falcon-40b/blob/main/LICENSE.txt) below.
-
+* **It is made available under a permissive Apache 2.0 license allowing for commercial use**, without any royalties or restrictions.
+* 
 ⚠️ **This is a raw, pretrained model, which should be further finetuned for most usecases.** If you are looking for a version better suited to taking generic instructions in a chat format, we recommend taking a look at [Falcon-40B-Instruct](https://huggingface.co/tiiuae/falcon-40b-instruct). 
 
 💸 **Looking for a smaller, less expensive model?** [Falcon-7B](https://huggingface.co/tiiuae/falcon-7b) is Falcon-40B's little brother!
@@ -67,7 +67,7 @@ for seq in sequences:
 - **Developed by:** [https://www.tii.ae](https://www.tii.ae);
 - **Model type:** Causal decoder-only;
 - **Language(s) (NLP):** English, German, Spanish, French (and limited capabilities in Italian, Portuguese, Polish, Dutch, Romanian, Czech, Swedish);
-- **License:** [TII Falcon LLM License](https://huggingface.co/tiiuae/falcon-40b/blob/main/LICENSE.txt).
+- **License:** Apache 2.0 license.
 
 ### Model Source
 
@@ -223,11 +223,7 @@ Falcon-40B was trained a custom distributed training codebase, Gigatron. It uses
 
 ## License
 
-Falcon-40B is made available under the [TII Falcon LLM License](https://huggingface.co/tiiuae/falcon-40b/blob/main/LICENSE.txt). Broadly speaking,
-* You can freely use our models for research and/or personal purpose;
-* You are allowed to share and build derivatives of these models, but you are required to give attribution and to share-alike with the same license;
-* For commercial use, you are exempt from royalties payment if the attributable revenues are inferior to $1M/year, otherwise you should enter in a commercial agreement with TII.
-
+Falcon-40B is made available under the Apache 2.0 license.
 
 ## Contact
 falconllm@tii.ae
