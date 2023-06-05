@@ -219,7 +219,29 @@ Falcon-40B was trained a custom distributed training codebase, Gigatron. It uses
 
 ## Citation
 
-*Paper coming soon 😊.*
+*Paper coming soon* 😊. In the meanwhile, you can use the following information to cite: 
+```
+@article{falcon40b,
+  title={{Falcon-40B}: an open large language model with state-of-the-art performance},
+  author={Almazrouei, Ebtesam and Alobeidli, Hamza and Alshamsi, Abdulaziz and Cappelli, Alessandro and Cojocaru, Ruxandra and Debbah, Merouane and Goffinet, Etienne and Heslow, Daniel and Launay, Julien and Malartic, Quentin and Noune, Badreddine and Pannier, Baptiste and Penedo, Guilherme},
+  year={2023}
+}
+```
+
+To learn more about the pretraining dataset, see the 📓 [RefinedWeb paper](https://arxiv.org/abs/2306.01116).
+
+```
+@article{refinedweb,
+  title={The {R}efined{W}eb dataset for {F}alcon {LLM}: outperforming curated corpora with web data, and web data only},
+  author={Guilherme Penedo and Quentin Malartic and Daniel Hesslow and Ruxandra Cojocaru and Alessandro Cappelli and Hamza Alobeidli and Baptiste Pannier and Ebtesam Almazrouei and Julien Launay},
+  journal={arXiv preprint arXiv:2306.01116},
+  eprint={2306.01116},
+  eprinttype = {arXiv},
+  url={https://arxiv.org/abs/2306.01116},
+  year={2023}
+}
+```
+
 
 ## License
 
