@@ -16,6 +16,8 @@ license: apache-2.0
 
 *Paper coming soon 😊.*
 
+🤗 To get started with Falcon (inference, finetuning, quantization, etc.), we recommend reading [this great blogpost fron HF](https://huggingface.co/blog/falcon)!
+
 ## Why use Falcon-40B?
 
 * **It is the best open-source model currently available.** Falcon-40B outperforms [LLaMA](https://github.com/facebookresearch/llama), [StableLM](https://github.com/Stability-AI/StableLM), [RedPajama](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-7B-v0.1), [MPT](https://huggingface.co/mosaicml/mpt-7b), etc. See the [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).
@@ -57,6 +59,9 @@ for seq in sequences:
 
 💥 **Falcon LLMs require PyTorch 2.0 for use with `transformers`!**
 
+For fast inference with Falcon, check-out [Text Generation Inference](https://github.com/huggingface/text-generation-inference)! Read more in this [blogpost]((https://huggingface.co/blog/falcon). 
+
+You will need **at least 85-100GB of memory** to swiftly run inference with Falcon-40B.
 
 # Model Card for Falcon-40B
 
