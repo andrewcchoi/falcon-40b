@@ -141,7 +141,7 @@ Falcon-40B was trained on 1,000B tokens of [RefinedWeb](https://huggingface.co/d
 | Books  | 6%           | 60B        |                  |
 | Conversations      | 5%           | 50B        | Reddit, StackOverflow, HackerNews |
 | Code               | 5%           | 50B        |                                   |
-| Technical          | 2%           | 20B        | arXiv, PubMed, UPSTO, etc.        |
+| Technical          | 2%           | 20B        | arXiv, PubMed, USPTO, etc.        |
 
 RefinedWeb-Europe is made of the following languages:
 
