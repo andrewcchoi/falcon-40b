@@ -16,6 +16,22 @@ license: apache-2.0
 
 *Paper coming soon 😊.*
 
+
+
+# Call for Proposals : Falcon 40B - World's Top Ranked AI Model Empowers Exceptional Use Cases with Training Compute Power in Call for Proposals
+
+We get it. AI is everywhere! Is it taking over? 
+
+Before we debate the scant likelihood of a cyborg assassin from the future terminating humanity, let’s get to know the newbie that has soared to top-spot on the leaderboard – Falcon 40B.
+
+Falcon 40B is the UAE’s and the Middle East’s first home-grown, open-source large language model (LLM) with 40 billion parameters trained on one trillion tokens. The brainchild of the Technology Innovation Institute (TII), Falcon 40B has generated a tremendous amount of global interest and intrigue, but what really sweetens the deal is its transparent, open-source feature. 
+
+TII is now calling for proposals from users worldwide to submit their most creative ideas for Falcon 40B’s deployment – allowing them to share their knowledge, enhance the software, and potentially transform their ideas into reality! Take that, ChatGPT! 
+Worth checking out? Give it a go and see for yourself! 
+
+Submit your proposal today! https://falconllm.tii.ae/call-for-proposal.php
+
+
 🤗 To get started with Falcon (inference, finetuning, quantization, etc.), we recommend reading [this great blogpost fron HF](https://huggingface.co/blog/falcon)!
 
 ## Why use Falcon-40B?
